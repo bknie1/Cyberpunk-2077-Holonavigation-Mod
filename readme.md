@@ -1,21 +1,25 @@
-# In-World Navigation
+# Oh, Fork!
+
+Instead of cluttering the source with ideas and impulsive PRs I figured I would play around here. I set out to create a more minimalistic, holonavigation configuration for @jackhumbert's In World Navigation mod for Cyberpunk 2077. I would consider this, at worst, a tribute to his work, and, at best, a meaningful contribution for source consideration.
+
+## Original Mod: In-World Navigation by @jackhumbert: https://github.com/jackhumbert/in_world_navigation
 
 This mod displays in-world holographic arrows for quest/point of interest navigation, mirroring the dots in the minimap. They're currently displayed all of the time, but will eventually be configurable.
 
 ![preview](preview.jpg)
 
-## Installation
+### Installation
 
 [Get the latest release here](https://github.com/jackhumbert/in_world_navigation/releases) - `packed-v*.zip` in the release contains all of the requirements listed below at their most up-to-date versions (at the time of release). Simply extract it and copy the contents in your game's installation folder. If you're upgrading, you may want to delete the contents of the `r6/scripts/in_world_navigation` folder, since files may have been renamed/removed.
 
 If you want to install the mod outside of a release (not recommended), the `build/` folder in the repo contains all of the mod-specific files that you can drag into your game's installation folder.
 
-## Requirements
+### Requirements
 
 * [RED4ext](https://github.com/WopsS/RED4ext)
 * [Redscript](https://github.com/jac3km4/redscript)
 
-## Bugs
+### Bugs
 
 If you come across something that doesn't work quite right, or interferes with another mod, [search for or create an issue!](https://github.com/jackhumbert/in_world_navigation/issues) I have a lot of things on a private TODO list still, but can start to move things to Github issues.
 
